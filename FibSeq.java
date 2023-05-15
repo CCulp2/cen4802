@@ -1,7 +1,9 @@
 public class FibSeq {
 
     public static void main(String[] args) {
-        System.out.println(FibToTheNthCalculator(10));
+        int nthNumberInFibSeq = 10;
+        System.out.println("The " + nthNumberInFibSeq + " number in the Fibonacci sequence is "
+                + FibToTheNthCalculator(nthNumberInFibSeq));
     }
 
     static int FibToTheNthCalculator(int nth) {
