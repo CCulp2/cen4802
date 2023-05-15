@@ -6,6 +6,12 @@ public class FibSeq {
                 + FibToTheNthCalculator(nthNumberInFibSeq));
     }
 
+    /**
+     * Returns the nth number of the Fibonacci Sequence as an int or 1 if the position given is < 1.
+     *
+     * @param nth A position in the Fibonacci Sequence.
+     * @return The number in the nth position of the Fibonacci Sequence
+     */
     static int FibToTheNthCalculator(int nth) {
         if (nth <= 1) {
             return nth;
