@@ -1,3 +1,5 @@
+package src.main.java;
+
 public class FibSeq {
 
     public static void main(String[] args) {
